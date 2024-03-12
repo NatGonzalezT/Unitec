@@ -54,6 +54,7 @@ Corporación universitaria Unitec
         }
     </style>
 </head>
+    
 <body>
     <header>
         <h1>Portal Universitario</h1>
@@ -90,7 +91,7 @@ Corporación universitaria Unitec
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Universidad XYZ. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Universidad UNITEC Todos los derechos reservados.</p>
     </footer>
 </body>
 </html>

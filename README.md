@@ -64,7 +64,6 @@ Corporación universitaria Unitec
                 <li><a href="#foro">Foro</a></li>
                 <li><a href="#mensajes">Mensajes</a></li>
                 <li><a href="#busqueda">Búsqueda</a></li>
-                <!-- Agregar más opciones de navegación según sea necesario -->
             </ul>
         </nav>
     </header>

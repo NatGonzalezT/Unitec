@@ -1,5 +1,5 @@
 # Unitec
-Corporación universiaria Unitec
+Corporación universitaria Unitec
 <html lang="es">
 <head>
     <meta charset="UTF-8">

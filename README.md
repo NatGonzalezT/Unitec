@@ -18,6 +18,7 @@
                 <li><a href="#mensajes">Mensajes</a></li>
                 <li><a href="#busqueda">Búsqueda</a></li>
                 <!-- Agregar más opciones de navegación
+
 /* Reset de estilos */
 * {
     margin: 0;

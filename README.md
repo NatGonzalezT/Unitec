@@ -1,5 +1,5 @@
 # Unitec
-<!DOCTYPE html>
+Corporación universiaria Unitec
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -17,4 +17,3 @@
                 <li><a href="#foro">Foro</a></li>
                 <li><a href="#mensajes">Mensajes</a></li>
                 <li><a href="#busqueda">Búsqueda</a></li>
-                <!-- Agregar más opciones de navegación

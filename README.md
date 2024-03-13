@@ -10,7 +10,7 @@ Corporación universitaria Unitec
         body {
             font-family: 'IBM Plex Sans', sans-serif;
             background-color: #f0f6ff; /* Azul claro */
-            color: #333; /* Color de texto oscuro */
+            color: #333; /* Color de texto amarillo */
             margin: 0;
             padding: 0;
         }
@@ -54,5 +54,19 @@ Corporación universitaria Unitec
         }
     </style>
 </head>
-
+<body>
+    <header>
+        <h1>Portal Universitario</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#foro">Foro</a></li>
+                <li><a href="#mensajes">Mensajes</a></li>
+                <li><a href="#busqueda">Búsqueda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    
 

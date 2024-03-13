@@ -9,13 +9,13 @@ Corporación universitaria Unitec
     <style>
         body {
             font-family: 'IBM Plex Sans', sans-serif;
-            background-color: #f0f6ff; /* Azul claro */
+            background-color: #f0f6ff; /* Azul oscuro */
             color: #333; /* Color de texto amarillo */
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #2d2d2d; /* Gris oscuro */
+            background-color: #2d2d2d; /* Azul oscuro */
             color: #fff; /* Color de texto blanco */
             padding: 20px;
             text-align: center;
@@ -68,5 +68,29 @@ Corporación universitaria Unitec
         </nav>
     </header>
     <main>
-    
-
+        <section id="inicio">
+            <h2>Bienvenido al Portal Universitario</h2>
+            <!-- En pro de la comunicación asertiva y eficiente de estudiantes y docentes con el area administrativa -->
+        </section>
+        <section id="eventos">
+            <h2>Calendario de Eventos</h2>
+            <!-- Insertar calendario de eventos -->
+        </section>
+        <section id="foro">
+            <h2>Foro de Discusión</h2>
+            <!-- Insertar sistema de foro de discusión -->
+        </section>
+        <section id="mensajes">
+            <h2>Mensajería Interna</h2>
+            <!-- Insertar sistema de mensajería interna -->
+        </section>
+        <section id="busqueda">
+            <h2>Búsqueda Avanzada</h2>
+            <!-- Insertar formulario de búsqueda avanzada -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Universidad UNITEC Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

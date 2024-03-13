@@ -54,45 +54,5 @@ Corporación universitaria Unitec
         }
     </style>
 </head>
-    
-<body>
-    <header>
-        <h1>Portal Universitario</h1>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#eventos">Eventos</a></li>
-                <li><a href="#foro">Foro</a></li>
-                <li><a href="#mensajes">Mensajes</a></li>
-                <li><a href="#busqueda">Búsqueda</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="inicio">
-            <h2>Bienvenido al Portal Universitario</h2>
-            <!-- Contenido inicial de la página -->
-        </section>
-        <section id="eventos">
-            <h2>Calendario de Eventos</h2>
-            <!-- Insertar calendario de eventos -->
-        </section>
-        <section id="foro">
-            <h2>Foro de Discusión</h2>
-            <!-- Insertar sistema de foro de discusión -->
-        </section>
-        <section id="mensajes">
-            <h2>Mensajería Interna</h2>
-            <!-- Insertar sistema de mensajería interna -->
-        </section>
-        <section id="busqueda">
-            <h2>Búsqueda Avanzada</h2>
-            <!-- Insertar formulario de búsqueda avanzada -->
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 Universidad UNITEC Todos los derechos reservados.</p>
-    </footer>
-</body>
-</html>
+
 

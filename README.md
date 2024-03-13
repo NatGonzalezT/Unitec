@@ -177,4 +177,3 @@ calendar.render()
     </main>
     <footer>
         <p>&copy; 2024 Universidad UNITEC. Todos los derechos reservados.</p>
-    </footer

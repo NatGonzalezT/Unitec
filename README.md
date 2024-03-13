@@ -79,7 +79,7 @@ Corporación universitaria Unitec
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Universidad XYZ. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Universidad UNITEC Todos los derechos reservados.</p>
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.10.0/main.min.js"></script> <!-- FullCalendar -->
     <script>

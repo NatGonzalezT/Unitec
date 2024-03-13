@@ -76,6 +76,23 @@ Corporación universitaria Unitec
         <section id="eventos">
             <h2>Calendario de Eventos</h2>
             <div id="calendario"></div>
+            import { Calendar } from '@fullcalendar/core'
+import interactionPlugin from '@fullcalendar/interaction'
+import dayGridPlugin from '@fullcalendar/daygrid'
+
+const calendarEl = document.getElementById('calendar')
+const calendar = new Calendar(calendarEl, {
+  plugins: [
+    interactionPlugin,
+    dayGridPlugin
+  ],
+  initialView: 'timeGridWeek',
+  editable: true,
+  events: [
+    { title: 'Meeting', start: new Date() }
+  ]
+})
+calendar.render()
         </section>
         <section id="foro">
             <h2>Foro de Discusión</h2>

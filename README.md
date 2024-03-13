@@ -6,16 +6,17 @@ Corporación universitaria Unitec
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal de Comunicación Universitaria</title>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap" rel="stylesheet"> <!-- Fuente IBM -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.10.0/main.min.css" rel="stylesheet"> <!-- Estilos FullCalendar -->
     <style>
         body {
             font-family: 'IBM Plex Sans', sans-serif;
-            background-color: #f0f6ff; /* Azul oscuro */
-            color: #333; /* Color de texto amarillo */
+            background-color: #f0f6ff; /* Azul claro */
+            color: #333; /* Color de texto oscuro */
             margin: 0;
             padding: 0;
         }
         header {
-            background-color: #2d2d2d; /* Azul oscuro */
+            background-color: #2d2d2d; /* Gris oscuro */
             color: #fff; /* Color de texto blanco */
             padding: 20px;
             text-align: center;
@@ -52,6 +53,10 @@ Corporación universitaria Unitec
             left: 0;
             width: 100%;
         }
+        #calendario {
+            max-width: 800px; /* Ancho máximo del calendario */
+            margin: 0 auto; /* Centrar el calendario horizontalmente */
+        }
     </style>
 </head>
 <body>
@@ -68,29 +73,36 @@ Corporación universitaria Unitec
         </nav>
     </header>
     <main>
-        <section id="inicio">
-            <h2>Bienvenido al Portal Universitario</h2>
-            <!-- En pro de la comunicación asertiva y eficiente de estudiantes y docentes con el area administrativa -->
-        </section>
         <section id="eventos">
             <h2>Calendario de Eventos</h2>
-            <!-- Insertar calendario de eventos -->
-        </section>
-        <section id="foro">
-            <h2>Foro de Discusión</h2>
-            <!-- Insertar sistema de foro de discusión -->
-        </section>
-        <section id="mensajes">
-            <h2>Mensajería Interna</h2>
-            <!-- Insertar sistema de mensajería interna -->
-        </section>
-        <section id="busqueda">
-            <h2>Búsqueda Avanzada</h2>
-            <!-- Insertar formulario de búsqueda avanzada -->
+            <div id="calendario"></div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Universidad UNITEC Todos los derechos reservados.</p>
+        <p>&copy; 2024 Universidad XYZ. Todos los derechos reservados.</p>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.10.0/main.min.js"></script> <!-- FullCalendar -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var calendarEl = document.getElementById('calendario');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth', // Vista mensual por defecto
+                events: [
+                    // Aquí puedes agregar tus eventos
+                    {
+                        title: 'Evento 1',
+                        start: '2024-03-15',
+                        end: '2024-03-16'
+                    },
+                    {
+                        title: 'Evento 2',
+                        start: '2024-03-20'
+                    }
+                    // Puedes agregar más eventos según sea necesario
+                ]
+            });
+            calendar.render();
+        });
+    </script>
 </body>
 </html>

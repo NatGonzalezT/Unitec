@@ -76,7 +76,6 @@ Corporación universitaria Unitec
         <section id="eventos">
             <h2>Calendario de Eventos</h2>
             <div id="calendario"></div>
-            npm install @fullcalendar/core @fullcalendar/interaction @fullcalendar/daygrid
             import { Calendar } from '@fullcalendar/core'
 import interactionPlugin from '@fullcalendar/interaction'
 import dayGridPlugin from '@fullcalendar/daygrid'

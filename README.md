@@ -1,5 +1,6 @@
 # Unitec
 Corporación universitaria Unitec
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -89,13 +90,13 @@ Corporación universitaria Unitec
                 initialView: 'dayGridMonth', // Vista mensual por defecto
                 events: [
                     {
-                        title: 'Evento 1',
-                        start: '2024-03-15',
-                        end: '2024-03-16'
+                        title: 'Clases 2024-1',
+                        start: '2024-02-06',
+                        end: '2024-04-5'
                     },
                     {
-                        title: 'Evento 2',
-                        start: '2024-03-20'
+                        title: 'Clases 2024-2',
+                        start: '2024-04-08'
                     }
                 ]
             });

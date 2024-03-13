@@ -88,7 +88,6 @@ Corporación universitaria Unitec
             var calendar = new FullCalendar.Calendar(calendarEl, {
                 initialView: 'dayGridMonth', // Vista mensual por defecto
                 events: [
-                    // Aquí puedes agregar tus eventos
                     {
                         title: 'Evento 1',
                         start: '2024-03-15',
@@ -98,7 +97,6 @@ Corporación universitaria Unitec
                         title: 'Evento 2',
                         start: '2024-03-20'
                     }
-                    // Puedes agregar más eventos según sea necesario
                 ]
             });
             calendar.render();
